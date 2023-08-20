@@ -1,0 +1,45 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: dotted;
+    /* text-indent: 99px; */
+    text-shadow: -3px 0 #ccc;
+
+}
+
+div::first-letter{
+    line-height: 2;
+    /* letter-spacing: 2px; */
+    /* font-size: 100px; */
+    text-indent: 250px;
+    
+}
+
+.paragraph{
+    vertical-align: text-top;
+}
+
+.image{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.button{
+    border: none;
+    /* background-color: blue; */
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.button:hover{
+    /* background-color: rgb(11, 11, 11); */
+    /* border: 1px solid red ; */
+    color: red;
+
+}
+
+
